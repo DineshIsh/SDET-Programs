@@ -20,7 +20,20 @@ public class ReverseNumber {
         }
 
         System.out.println(rev);
-    }
 
+        //======================
+      /*  int num = 54321;
+       int revNum = 0;
+
+       for(int i=num; i>0; i--){
+           revNum = revNum * 10 + num%10;
+          num = num/10;
+       }
+        System.out.println(revNum);*/
+
+
+
+
+    }
 
 }

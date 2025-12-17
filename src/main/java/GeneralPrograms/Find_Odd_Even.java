@@ -2,14 +2,14 @@ package GeneralPrograms;
 
 public class Find_Odd_Even {
 
-    public static void main(String Hema[]){
+    public static void main(String arg[]){
 
         int num = 12342  ;
         int even_count = 0;
         int odd_count = 0;
 
 //while (num > 0){
-    for(int i=0; num>0;i++) {
+    for(; num>0;) {
 
         int rem = num % 10;
 
@@ -17,11 +17,11 @@ public class Find_Odd_Even {
 
             even_count++;
         } else {
-
             odd_count++;
         }
         num = num / 10;
     }
+
         System.out.println(even_count);
 
 

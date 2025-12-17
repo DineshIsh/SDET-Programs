@@ -6,16 +6,16 @@ public class reverseString {
 
         // new try
 
-//        String gg = "Hello world";
-//
-//        String reverz = "";
-//
-//        for (int i = gg.length()-1; i >= 0; i--) {
-//
-//            reverz = reverz + gg.charAt(i);
-//
-//        }
-//        System.out.println(reverz);
+        String gg = "Hello world";
+
+        String reverz = "";
+
+        for (int i = gg.length()-1; i >= 0; i--) {
+
+            reverz = reverz + gg.charAt(i);
+
+        }
+        System.out.println(reverz);
 
 
         String wr = "DInesh";

@@ -17,6 +17,16 @@ public class ReverseString_Array {
 
         }
         System.out.println(rev);
+
+      //  ==============
+
+        String mm = "New Born";
+
+        for(int i=mm.length()-1; i>=0; i--){
+         char varb = mm.charAt(i);
+            System.out.print(varb);
+        }
+
     }
 }
 

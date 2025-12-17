@@ -4,7 +4,7 @@ public class FindtheSecondLargestNumber {
 
     public static void main(String ary[]){
 
-        int[] arry = {1,5,6,9,8,7,5,2};
+        int[] arry = {1,5,6,9,8,7,5,2,2,8};
         int temp =0;
         int sz =arry.length;
 
